@@ -32,8 +32,8 @@
         "~clears throat~",
         "Hi! I'm Maye!",
         "I'm a software developer.",
-        "Been in tech for half a year.",
-        "Building awesome websites and software with #100devs.",
+        "Been in tech for about 2 years.",
+        "Building awesome fullstack applications.",
         "Nice to meet you, and let's connect!",
     ];
 
