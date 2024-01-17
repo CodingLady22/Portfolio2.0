@@ -183,6 +183,17 @@ main, .linkTree {
     grid-gap: 1rem;
 }
 
+.servicesList {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-card {
+    padding: 1em;
+    border-radius: 1em;
+    width: 100%;
+}
+
 .servicesList img {
     width: 40%;
     display: block;
@@ -289,6 +300,15 @@ main, .linkTree {
     .servicesList, .projectList, .cssArtList, .illustrationList {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .servicesList {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .service-card {
+        width: 50%;
+    }
 }
 
 
@@ -325,6 +345,8 @@ main, .linkTree {
     .proficiencyList {
         grid-template-columns: repeat(8, 1fr);
     }
+
+    
 
 }
 
